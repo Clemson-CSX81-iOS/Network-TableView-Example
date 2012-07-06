@@ -103,7 +103,7 @@
     self.results = [NSArray array];
     [self.tableView reloadData];
     
-    NSURL *url = [NSURL URLWithString:@"https://search.twitter.com/search.json?q=ipad"];
+    NSURL *url = [NSURL URLWithString:@"https://search.twitter.com/search.json?q=apple"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
     AFJSONRequestOperation *operation = [AFJSONRequestOperation 
